@@ -47,3 +47,9 @@ MyClass.on("messageLogger", (arg) => {
 });
 
 MyClass.log();
+
+const path = require("path");
+const parser = path.parse(__filename);
+
+console.log(parser);
+console.log('hello');
